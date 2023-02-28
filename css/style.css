@@ -2,19 +2,20 @@
 
 /*
     Paleta de Cores
-    Purple: #737
+    Purple: greenyellow;
     Gold: #FFD700
 */
 
 * {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:greenyellow;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
 body, html {
-    background-color:#737;
+    background-color:greenyellow;
     height: 100vh;
     width: 100vw;
 }
@@ -33,7 +34,7 @@ section#login {
     transform: translate(-50%, -50%);
     overflow: hidden;
 
-    background-color: white;
+    background-color: black;
     width: 250px;
     height: 500px;
     border-radius: 20px;
@@ -43,9 +44,9 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: #A020F0 url(../images/paisagem.jpg);
+    background: greenyellow url(../images/pexels-jay-pizzle-4157199.jpg) no-repeat;
     background-size: cover;
-    background-position:center;
+    background-position: center;
     height: 200px;
 
 }
