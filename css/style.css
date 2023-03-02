@@ -74,8 +74,9 @@ form > div.campo {
     height: 40px;
     border-radius: 8px;
     margin: 5px 0;
-
 }
+
+
 
 form > input[type=submit] {
     display: block;
