@@ -29,7 +29,11 @@ Grandes telas: acima de 1200px
     width: 70%;
   }
 
-   
+  div.campo > input {
+    background-color: greenyellow;
+    transform: translateY(-42px);
+    margin-left: 10%;
+  } 
 
   div#formulario > h1 {
     font-size: 2em;
@@ -48,7 +52,7 @@ Grandes telas: acima de 1200px
 
   section#login {
     width: 950px;
-    height:320px
+    height:330px
   }
 
   section#login > div#imagem {
@@ -62,7 +66,11 @@ Grandes telas: acima de 1200px
     width: 50%;
   }
 
-   
+  div.campo > input {
+    background-color:greenyellow;
+    transform: translateY(-42px);
+    margin-left: 10%;
+  }
 
   div#formulario > h1 {
     font-size: 2em;
